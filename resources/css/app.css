@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .input-contact {
+        @apply p-2 border-transparent border-b-2 border-b-custom-white bg-transparent text-custom-white text-sm font-semibold focus:border-b-blue-neuuni focus:border-transparent focus:ring-0;
+    }
+
+    .column {
+        @apply flex flex-col my-5;
+    }
+
+    .hover-gradient {
+        @apply hover:bg-gradient-to-r from-blue-neuuni to-green-neuuni;
+    }
+
+}
